@@ -29,6 +29,10 @@ const container = document.createElement('div')
 container.className = 'container'
 document.body.appendChild(container)
 
+const subtitle = document.createElement('h2')
+subtitle.className = 'subtitle'
+subtitle.textContent = 'Не сделал переключение языков, клавиатура сделана на windows'
+document.body.appendChild(subtitle)
 
 
 const text = document.createElement('textarea')
